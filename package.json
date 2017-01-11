@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/josephmtinangi/my-first-nodejs-website/issues"
   },
-  "homepage": "https://github.com/josephmtinangi/my-first-nodejs-website#readme"
+  "homepage": "https://github.com/josephmtinangi/my-first-nodejs-website#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
