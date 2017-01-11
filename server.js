@@ -8,8 +8,12 @@ app.listen(port, function() {
   console.log('App started on port ' + port);
 });
 
-// route my app
+// route for home page
 app.get('/', function(req, res) {
   res.send('hello');
 });
 
+// route for about page
+app.get('/about', function(req, res) {
+  res.send('About page');
+});
