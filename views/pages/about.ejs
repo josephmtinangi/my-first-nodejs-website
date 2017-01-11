@@ -11,14 +11,11 @@
 
 <%- contentFor('body') %>
 <div class="row">
-  <div class="col-sm-6">
-    <p>
-      J-pop urban decay warehouse semiotics BASE jump savant nodal point 8-bit. Nano-physical meta-Kowloon wristwatch sprawl corrupted tattoo weathered semiotics monofilament dolphin. DIY convenience store realism decay cartel face forwards ablative receding camera wonton soup tube motion neural singularity. Claymore mine face forwards neon knife math-vinyl dolphin man. Physical motion camera marketing wonton soup cartel A.I. carbon saturation point grenade sub-orbital dolphin media semiotics soul-delay beef noodles render-farm. 
-    </p>
-  </div>
-  <div class="col-sm-6">
-    <p>
-      Towards artisanal into city bomb disposable boat denim monofilament A.I. decay girl. Smart-office nano-San Francisco into drugs human Shibuya network computer soul-delay nodality alcohol futurity. Lights 3D-printed 8-bit plastic drone Tokyo shoes physical. Paranoid face forwards soul-delay dead shoes 8-bit nodality city realism vinyl monofilament Chiba hacker. Decay euro-pop network semiotics 3D-printed film motion. Modem dome shanty town futurity crypto-systemic fluidity free-market systema. Free-market digital realism physical tiger-team neural shoes assassin. Dissident geodesic ablative lights free-market car math-RAF into. Cyber-j-pop-ware silent systema tiger-team rain. 
-    </p>
-  </div>
+  <% for (user of users) { %>
+    <div class="col-sm-3">
+      <img src="<%= user.avatar %>" />
+      <h2><%= user.name %></h2>
+      <p><%= user.email %></p>
+    </div>
+  <% } %>
 </div>
