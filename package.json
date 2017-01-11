@@ -1,0 +1,19 @@
+{
+  "name": "my-first-nodejs-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephmtinangi/my-first-nodejs-website.git"
+  },
+  "author": "Joseph Mtinangi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephmtinangi/my-first-nodejs-website/issues"
+  },
+  "homepage": "https://github.com/josephmtinangi/my-first-nodejs-website#readme"
+}
